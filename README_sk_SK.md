@@ -8,9 +8,9 @@ Zvoľte jazyk: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR
 
 Pepecoin je komunitne sústredená kryptomena, vytvorená jedným z pôvodných členov komunity Dogecoin z roku 2013. Pepecoin bol vytvorený s jediným účelom - vytvoriť novú a zábavnú komunitu podobnú pôvodnej komunite Dogecoin.
 
-Na rozdiel od všetkých predchádzajúcich iterácií je Pepecoin layer 1. To znamená, že neexistujú žiadne likvidačné pooly na vyčerpanie, žiadne zoznamy blokovaných peňaženiek a žiadne zložité smart kontrakty. Pepecoin je jednoduchý blockchain.
+Na rozdiel od všetkých predchádzajúcich iterácií je Pepecoin layer 1. To znamená, že neexistujú žiadne likvidačné pooly, žiadne blokovanie peňaženiek a žiadne zložité smart kontrakty. Pepecoin je jednoduchý blockchain.
 
-Softvér Pepecoin Core umožňuje každému prevádzkovať uzol v sieti blockchainu a používa Scrypt hashovaciu metódu pre Proof of Work. Je adaptovaný z Dogecoin Core, Bitcoin Core a ďalších kryptomien.
+Softvér Pepecoin Core umožňuje každému prevádzkovať tzv. uzol v sieti blockchainu a používa Scrypt hashovaciu metódu pre Proof of Work. Je adaptovaný z Dogecoin Core, Bitcoin Core a ďalších kryptomien.
 
 Pre informácie o predvolených poplatkoch používaných v sieti Pepecoin kliknite na [odporúčané poplatky](doc/fee-recommendation.md).
 
@@ -22,20 +22,20 @@ Pepecoin je fork Dogecoinu. Pre účely dôveryhodnosti sa budeme snažiť udrž
 
 Zmeny:
 
-* Adresy začínajú na `P` na miesto `D`
-* Funkcie BIPS sa začnú na bloku 1000
+* Adresy začínajú na `P`, miesto písmena `D`
+* Funkcie BIPS sa začnú používať na bloku číslo 1000
 * AuxPow sa spustí na bloku číslo 42,000 (ID Reťazca: 63)
-* GUI themed for Pepecoin
+* Používateľské prostredie nadizajnované pre Pepecoin
 
 ## Použitie 💻
 
-Aby ste začali svoju cestu s Pepecoin Core, pozrite sa na [inštalačnú príručku](INSTALL.md) a [návod na začatie](doc/getting-started.md).
+Aby ste začali svoju cestu s Pepecoin Core, preštudujte si [inštalačnú príručku](INSTALL.md) a [návod na začatie](doc/getting-started.md).
 
-API JSON-RPC poskytované Pepecoin Core obsahuje vlastnú dokemntáciu, ktoré môže byť zobrazená pomocou príkazu `pepecoin-cli help`, podrobné informácie o každom príkaze môžete zobraziť pomocou `pepecoin-cli help <command>`. Alternatívne, pozrite sa na [dokumentáciu Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - ktorá implementuje podobný protokol - webová verzia dokumentácie.
+API JSON-RPC poskytované Pepecoin Core obsahuje vlastnú dokumentáciu, ktorá môže byť zobrazená pomocou príkazu `pepecoin-cli help`, podrobné informácie o každom príkaze môžete zobraziť pomocou `pepecoin-cli help <príkaz>`. Alternatívne, sa môžete pozrieť na [dokumentáciu Bitcoin Core](https://developer.bitcoin.org/reference/rpc/) - ktorá implementuje podobný protokol - a je spracovaná vo webovej verzii.
 
 ### Porty
 
-Pepecoin Core štandardne používa port `33874` pre peer-to-peer komunikáciu, ktorá je potrebná na synchronizáciu blockchainu "mainnet" a na zostanie v obraze o nových transakciách a blokoch. Okrem toho môže byť otvorený port JSONRPC, ktorý pre uzly mainnet štandardne používa port `33873`. Dôrazne sa neodporúča vystavovať porty RPC verejne mimo lokálnu sieť.
+Pepecoin Core štandardne používa port `33874` pre peer-to-peer komunikáciu, ktorá je nevyhnutná na synchronizáciu blockchainu "mainnet" a na zostanie v obraze o nových transakciách a blokoch. Okrem toho môže byť otvorený port JSONRPC, ktorý pre uzly mainnet štandardne používa port `33873`. Dôrazne sa neodporúča vystavovať porty RPC verejne mimo lokálnu sieť.
 
 | Funkcia  | mainnet | testnet | regtest |
 | :------- | ------: | ------: | ------: |
