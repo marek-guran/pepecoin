@@ -4,7 +4,7 @@
 Pepecoin Core [PEPE, ₱]  
 </h1>
 
-Zvoľte jazyk: EN | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [SK](./README_sk_SK.md)
+Zvoľte jazyk: [EN](./README.md) | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | SK
 
 Pepecoin je komunitne sústredená kryptomena, vytvorená jedným z pôvodných členov komunity Dogecoin z roku 2013. Pepecoin bol vytvorený s jediným účelom - vytvoriť novú a zábavnú komunitu podobnú pôvodnej komunite Dogecoin.
 
