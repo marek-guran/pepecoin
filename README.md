@@ -4,7 +4,7 @@
 Pepecoin Core [PEPE, ₱]  
 </h1>
 
-Select language: EN | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md)
+Select language: EN | [CN](./README_zh_CN.md) | [PT](./README_pt_BR.md) | [FA](./README_fa_IR.md) | [VI](./README_vi_VN.md) | [SK](./README_sk_SK.md)
 
 Pepecoin is a community focused cryptocurrency created by one of the original Dogecoin shibes from 2013. It was created for one purpose, to create a new and fun community just like the original Dogecoin community.
 
@@ -25,7 +25,7 @@ Changes:
 
 * Addresses start with `P` instead of `D`
 * BIPS features will start block 1000
-* AuxPow starts at block 100,000 (Chain ID: 63)
+* AuxPow starts at block 42,000 (Chain ID: 63)
 * GUI themed for Pepecoin
 
 ## Usage 💻
